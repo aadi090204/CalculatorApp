@@ -1,0 +1,58 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#34877A"
+    android:orientation="vertical"
+    android:layout_margin="1dp"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="#01060B"
+        android:gravity="center"
+        android:textSize="50dp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/abt"
+        android:text="+"
+        android:textSize="30sp"
+        android:textColor="#00050B"
+        android:background="#464B66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sbt"
+        android:text="-"
+        android:textSize="40sp"
+        android:textColor="#00050B"
+        android:background="#464B66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbt"
+        android:text="*"
+        android:textSize="30sp"
+        android:textColor="#00050B"
+        android:background="#464B66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dbt"
+        android:text="/"
+        android:textSize="30sp"
+        android:textColor="#00050B"
+        android:background="#464B66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
+</LinearLayout>
+
